@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>OBAT</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- NAVIGATION BAR -->
+        <div class="container-navbar">
+            <ul class="ul-navbar">
+                <li class="li-navbar">
+                    <a href="/" class="a-navbar">HOME</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="/Obat" class="a-navbar">DATA PASIEN</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="/About" class="a-navbar">ABOUT ME</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="/Contact" class="a-navbar">CONTACT ME</a>
+                </li>        
+            </ul>
+        </div>
+        <!-- NAVIGATION BAR SELESAI -->
+
+        <!-- CONTENT 1 -->
+        <div class="container-content-obat">
+            <form action="/proses-formulir" class="form-obat" method="post">
+                <h2 class="informasi">Formulir Informasi Pasien</h2>
+                <label for="nama_pasien" class="form">Nama pasien:</label>
+                <input type="text" id="nama_pasien" name="nama_pasien" class="text" required><br>
+
+                <label for="umur" class="form">Umur:</label>
+                <input type="text" id="umur" name="umur" class="usia"><br>
+
+                <label for="jenis_kelamin" class="form">Jenis Kelamin:</label>
+                <select id="jenis_kelamin" name="jenis_kelamin">
+                    <option value="laki-laki" class="text">Laki-laki</option>
+                    <option value="perempuan">Perempuan</option>
+                </select><br>
+
+                <!-- Tambahkan bagian informasi obat, riwayat kesehatan, dll. sesuai kebutuhan -->
+
+                <label for="submit"></label>
+                <input type="submit"class="tekan" value="Submit">
+
+            </form>
+        </div>
+        <!-- CONTENT 1 END -->
+
+        <!-- FOOTER -->
+        <div class="container-footer">
+            <h1 class="h1-footer">ANDA SAKIT KAMI UNTUNG</h1>
+        </div>
+        <!-- FOOTER END -->
+    </div>
+</body>
+
+</html>
